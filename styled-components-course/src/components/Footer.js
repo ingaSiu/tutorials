@@ -1,9 +1,11 @@
+import SocialIcons from './SocialIcons';
 import { Container } from './styles/Container.styled';
 import { Flex } from './styles/Flex.styles';
+import { StyledFooter } from './styles/Footer.styled';
 
 const Footer = () => {
   return (
-    <div>
+    <StyledFooter>
       <Container>
         <img src="./images/logo_white.svg" alt="" />
 
@@ -27,11 +29,12 @@ const Footer = () => {
             <li>Blog</li>
             <li>Contact Us</li>
           </ul>
+          <SocialIcons />
         </Flex>
 
         <p>&copy; 2023 Neko. All rights reserved</p>
       </Container>
-    </div>
+    </StyledFooter>
   );
 };
 
