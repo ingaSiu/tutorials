@@ -1,15 +1,16 @@
 import {
-  NavbarContainer,
   LeftContainer,
-  RightContainer,
-  NavbarInnerContainer,
-  NavbarExtendedContainer,
-  NavbarLinkContainer,
-  NavbarLink,
   Logo,
-  OpenLinksButton,
+  NavbarContainer,
+  NavbarExtendedContainer,
+  NavbarInnerContainer,
+  NavbarLink,
+  NavbarLinkContainer,
   NavbarLinkExtended,
+  OpenLinksButton,
+  RightContainer,
 } from './styles/Navbar.style';
+
 import LogoImg from '../assets/logo.png';
 import { useState } from 'react';
 
@@ -19,6 +20,7 @@ const Navbar = () => {
   return (
     <NavbarContainer extendNavbar={extendNavbar}>
       <NavbarInnerContainer>
+
         <LeftContainer>
           <NavbarLinkContainer>
             <NavbarLink to="/">Home</NavbarLink>
@@ -35,10 +37,13 @@ const Navbar = () => {
             </OpenLinksButton>
           </NavbarLinkContainer>
         </LeftContainer>
+
         <RightContainer>
           <Logo src={LogoImg}></Logo>
         </RightContainer>
+
       </NavbarInnerContainer>
+      
       {extendNavbar && (
         <NavbarExtendedContainer>
           <NavbarLinkExtended to="/">Home</NavbarLinkExtended>
