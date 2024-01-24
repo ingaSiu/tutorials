@@ -48,3 +48,32 @@ body {
 .button:focus {
   opacity: 0.75;
 }
+
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+.col {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.col h2 {
+  color: #87629a;
+}
+
+.wrapper {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  background-color: #136c72;
+  color: white;
+}
+
+.wrapper > .col {
+  max-width: 550px;
+}
+.wrapper h2 {
+  color: white;
+}
