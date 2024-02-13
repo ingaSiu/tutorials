@@ -113,3 +113,38 @@ h1 {
 
 .sidebar-title {
 }
+
+header {
+  padding: 1em 0;
+  background-color: #136c72;
+}
+.nav {
+}
+
+.nav__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 1em;
+}
+
+.nav__item {
+}
+
+.nav__link {
+  color: #38cfd9;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav__link--button {
+  background: #fff;
+  color: #136c72;
+  padding: 0.25em 1em;
+  border-radius: 10em;
+}
+
+.nav__link:hover {
+  opacity: 0.75;
+}
