@@ -119,6 +119,8 @@ header {
   background-color: #136c72;
 }
 .nav {
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav__list {
@@ -129,7 +131,9 @@ header {
   gap: 1em;
 }
 
-.nav__item {
+/* select any nav-item that has another nav-item before it */
+.nav__item + .nav__item {
+  margin-left: 1em;
 }
 
 .nav__link {
