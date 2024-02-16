@@ -121,6 +121,7 @@ header {
 .nav {
   display: flex;
   justify-content: space-between;
+  flex-grow: 1;
 }
 
 .nav__list {
@@ -128,7 +129,12 @@ header {
   padding: 0;
   list-style: none;
   display: flex;
+
+  align-items: center;
   gap: 1em;
+}
+.logo {
+  margin-right: 1em;
 }
 
 /* select any nav-item that has another nav-item before it */
