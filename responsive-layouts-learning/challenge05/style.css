@@ -46,6 +46,12 @@ body {
   text-align: center;
   padding: 2em;
 }
+.section1__title {
+  color: #824936;
+  font-size: 2.5em;
+  font: 600;
+  font-family: 'Playfair Display', serif;
+}
 
 .section1__text-wrapper {
   display: flex;
