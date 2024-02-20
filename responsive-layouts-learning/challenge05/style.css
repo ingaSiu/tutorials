@@ -8,6 +8,14 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 1128px;
 }
 
 .hero {
@@ -32,4 +40,26 @@ body {
   font: 600;
   font-family: 'Playfair Display', serif;
   max-width: 60%;
+}
+
+.section1 {
+  text-align: center;
+  padding: 2em;
+}
+
+.section1__text-wrapper {
+  display: flex;
+  gap: 2em;
+}
+
+.section2 {
+  background-color: #222c2a;
+  color: #fff;
+  display: flex;
+  gap: 2em;
+  padding: 4em;
+}
+
+.section2__title {
+  color: #f3eed9;
 }
