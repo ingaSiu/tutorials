@@ -158,3 +158,20 @@ header {
 .nav__link:hover {
   opacity: 0.75;
 }
+
+@media (max-width: 600px) {
+  .row {
+    display: block;
+  }
+
+  .hero__text,
+  .hero__img,
+  .primary-content,
+  .sidebar {
+    width: 100%;
+  }
+
+  .hero__img {
+    margin-top: 2em;
+  }
+}
