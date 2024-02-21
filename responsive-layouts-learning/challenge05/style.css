@@ -17,6 +17,11 @@ body {
 .container {
   max-width: 1128px;
 }
+.row {
+}
+
+.col {
+}
 
 .hero {
   background-color: #f3eed9;
@@ -42,23 +47,23 @@ body {
   max-width: 60%;
 }
 
-.section1 {
+.section-one {
   text-align: center;
   padding: 2em;
 }
-.section1__title {
+.section-title--dark {
   color: #824936;
   font-size: 2.5em;
   font: 600;
   font-family: 'Playfair Display', serif;
 }
 
-.section1__text-wrapper {
+.section-one__text-wrapper {
   display: flex;
   gap: 2em;
 }
 
-.section2 {
+.section-two {
   background-color: #222c2a;
   color: #fff;
   display: flex;
@@ -66,11 +71,11 @@ body {
   padding: 4em;
 }
 
-.section__title {
+.section-title {
   color: #f3eed9;
 }
 
-.section3 {
+.section-three {
   background-color: #824936;
   color: #fff;
   display: flex;
