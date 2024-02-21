@@ -31,17 +31,13 @@ section {
 .container {
   width: 85%;
   margin: 0 auto;
-}
-.row {
-}
-
-.col {
+  max-width: 1128px;
 }
 
 .intro {
   background-color: #f3eed9;
   text-align: center;
-  min-height: 660px;
+  padding: 200px 0;
 }
 
 .intro__text {
@@ -56,8 +52,6 @@ section {
   font-size: 3rem;
 }
 
-.section-two {
-}
 .section-title--dark {
   color: #824936;
 }
@@ -75,4 +69,21 @@ section {
 .section-four {
   background-color: #824936;
   color: #fff;
+}
+
+@media (min-width: 800px) {
+  .row {
+    display: flex;
+  }
+  .col {
+    width: 100%;
+  }
+
+  .col + .col {
+    margin-left: 2em;
+  }
+
+  .intro__title {
+    font-size: 3.75rem;
+  }
 }
